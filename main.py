@@ -16,6 +16,4 @@ re = LinearRegression()
 re.fit(x, y)
 py.plot(x, re.predict(x), color='red', linewidth=2)
 py.show()
-
-sprint(re.score(x, y))
-print("im shakthi")
+print(re.score(x, y))
